@@ -1,0 +1,15 @@
+.row h2 {
+	padding: 16px 32px;
+}
+
+.row__movies {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+
+    scrollbar-width: none; 
+}
+
+.row__movies::-webkit-scrollbar {
+	display: none;
+}
