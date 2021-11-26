@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-
+import { useHistory } from "react-router-dom";
 import searchSvg from "../images/search.svg";
 import logo from "../images/logo.svg";
+import { auth } from '../firebase';
 import { Link } from "react-router-dom";
 
 function Navbar() {
+    const [show, handleShow] = useState(false);
+
+    const history = useHistory();
+    const signOut = () => auth.signOut();
+
+    const transitionNavBar = () => {
+        if (window.scrollY > 100) {
+            handleShow(true);
+        }
+        else {
+            handleShow(false);
+        }
+    }
+
+    useEffect (() => {
+        window.addEventListener("scroll",transitionNavBar);
+        return () => window.removeEventListener("scroll",transitionNavBar);
+    }, []);
+
 	return (
 		<nav className="navbar">
 			<div className="navbar__poster">
@@ -17,10 +37,7 @@ function Navbar() {
 				<Link to="/search">
 					<img className="profile__search" src={searchSvg} />
 				</Link>
-				<img
-					className="profile__icon"
-					src="https://occ-0-2433-2430.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABS7y6M8hmMkDll4f1ikTU80bIXyygZncIeHT9CkoxSbVBcjYtBALq004ZpLiftf7BjKjosJHUC13sa3Ca3t5p5x2gp5P.png?r=fdd"
-				/>
+				<button className="nav_avatar" onClick = {signOut}>Sign Out</button> 
 			</div>
 		</nav>
 	);

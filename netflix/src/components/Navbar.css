@@ -30,4 +30,11 @@
 
 .navbar__poster img.profile__search {
 	width: 24px;
+	background-color: aqua;
+}
+.nav_avatar{
+	cursor: pointer;
+	background-color:red;
+	border-radius: 5px;
+	height: 30px;
 }
