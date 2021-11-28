@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Movie_Nation/static/css/main.e8712b8e.chunk.css",
-    "main.js": "/Movie_Nation/static/js/main.b1998d54.chunk.js",
-    "main.js.map": "/Movie_Nation/static/js/main.b1998d54.chunk.js.map",
+    "main.css": "/Movie_Nation/static/css/main.037330e8.chunk.css",
+    "main.js": "/Movie_Nation/static/js/main.9fa71507.chunk.js",
+    "main.js.map": "/Movie_Nation/static/js/main.9fa71507.chunk.js.map",
     "runtime-main.js": "/Movie_Nation/static/js/runtime-main.740375ef.js",
     "runtime-main.js.map": "/Movie_Nation/static/js/runtime-main.740375ef.js.map",
-    "static/js/2.68fb6027.chunk.js": "/Movie_Nation/static/js/2.68fb6027.chunk.js",
-    "static/js/2.68fb6027.chunk.js.map": "/Movie_Nation/static/js/2.68fb6027.chunk.js.map",
+    "static/js/2.2a9dd06a.chunk.js": "/Movie_Nation/static/js/2.2a9dd06a.chunk.js",
+    "static/js/2.2a9dd06a.chunk.js.map": "/Movie_Nation/static/js/2.2a9dd06a.chunk.js.map",
     "index.html": "/Movie_Nation/index.html",
-    "static/css/main.e8712b8e.chunk.css.map": "/Movie_Nation/static/css/main.e8712b8e.chunk.css.map",
-    "static/js/2.68fb6027.chunk.js.LICENSE.txt": "/Movie_Nation/static/js/2.68fb6027.chunk.js.LICENSE.txt",
+    "static/css/main.037330e8.chunk.css.map": "/Movie_Nation/static/css/main.037330e8.chunk.css.map",
+    "static/js/2.2a9dd06a.chunk.js.LICENSE.txt": "/Movie_Nation/static/js/2.2a9dd06a.chunk.js.LICENSE.txt",
     "static/media/imdb-logo.179aa3d2.svg": "/Movie_Nation/static/media/imdb-logo.179aa3d2.svg",
     "static/media/logo.abd631a6.svg": "/Movie_Nation/static/media/logo.abd631a6.svg",
     "static/media/play.b31da51e.svg": "/Movie_Nation/static/media/play.b31da51e.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.740375ef.js",
-    "static/js/2.68fb6027.chunk.js",
-    "static/css/main.e8712b8e.chunk.css",
-    "static/js/main.b1998d54.chunk.js"
+    "static/js/2.2a9dd06a.chunk.js",
+    "static/css/main.037330e8.chunk.css",
+    "static/js/main.9fa71507.chunk.js"
   ]
 }
