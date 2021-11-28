@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Row from "./components/Row";
 import requests from "./utils/requests";
 import React, {useEffect} from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import LoginScreen from './LoginScreen';
 import { auth } from './firebase';
 import { useDispatch,useSelector } from "react-redux";
@@ -36,6 +36,7 @@ function App() {
   }, [dispatch]);
   
 	return (
+
 		<div className="App">
 			<Router>
 			{!user ? (
@@ -49,16 +50,16 @@ function App() {
 				fetchUrl={urls.weeklytrendingShows}
 				type="series"
 			/>
-			<Row
+			{/* <Row
 				title="Trending Movies"
 				fetchUrl={urls.weeklytrendingMovies}
 				type="movies"
-			/>
-			<Row
+			/> */}
+			{/* <Row
 				title="Top Rated Movies"
 				fetchUrl={urls.topRatedMovies}
 				type="movies"
-			/>
+			/> */}
 			<Row
 				title="Top Rated TV Shows"
 				fetchUrl={urls.topRatedShows}
@@ -69,11 +70,6 @@ function App() {
 				fetchUrl={urls.popularShows}
 				type="series"
 			/>
-            <Row 
-                title='NETFLIX ORIGINALS'
-                fetchUrl = {urls.fetchNetflixOriginals}
-                isLargeRow
-            />
             <Row 
                 title='Trending Now'
                 fetchUrl = {urls.fetchTrending}
@@ -124,6 +120,7 @@ function App() {
 			</Router>
 
 		</div>
+
 	);
 }
 

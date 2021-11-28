@@ -30,7 +30,9 @@ function Navbar() {
 		<nav className="navbar">
 			<div className="navbar__poster">
 				<Link to="/">
-					<img src={logo} />
+                <button className='logo'>
+                    MovieNation
+                </button>                
 				</Link>
 			</div>
 			<div className="navbar__profile">

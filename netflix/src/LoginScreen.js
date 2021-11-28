@@ -9,10 +9,9 @@ function LoginScreen() {
     return (
         <div className='loginScreen'>
             <div className='loginScreen_background'>
-                <img 
-                className='loginScreen_logo'
-                src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" 
-                alt="" />
+                <button className='logo'>
+                    MovieNation
+                </button>                
                 <button onClick = {() => setSignIn(true)}
                 className='loginScreen_button'>
                 Sign In
@@ -25,17 +24,17 @@ function LoginScreen() {
                     <SignupScreen />
                 ) : (
                     <>
-                    <h1>Unlimited films, TV programmes and
-                    more.</h1>
-                    <h2>Watch anywhere. Cancel at any time.</h2>
-                    <h3>
-                        Ready to watch? Enter your mail to
+                    <h1 className="xyz">Unlimited films, TV programmes and
+                    more...</h1>
+                    <h2 className="xyz">Watch anywhere.</h2>
+                    <h3 className="xyz">
+                        Enter your mail to
                         create or restart your
                         membership.
                     </h3>
                     <div className='loginScreen_input'>
-                        <form>
-                            <input type="email" placeholder="Email Address" />
+                        <form className='xyz'>
+                            <input  className='Email' type="email" placeholder="Email Address" />
                             <button onClick={() => setSignIn(true)}
                             className='loginScreen_getStarted'>
                                 GET STARTED

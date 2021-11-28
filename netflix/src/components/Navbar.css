@@ -36,5 +36,15 @@
 	cursor: pointer;
 	background-color:red;
 	border-radius: 5px;
-	height: 30px;
+	float: right;
+	top: 0;
+	width: 100px;
+	right: 0;
+}
+
+.logo{
+	top: 0;
+	left: 0;
+	width: 170px;
+	margin: 14px;
 }
