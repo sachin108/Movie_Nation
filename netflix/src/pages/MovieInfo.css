@@ -1,7 +1,9 @@
 .backdrop_image {
+	margin-top: 0;
 	height: 560px;
 	width: 100%;
 	background-size: cover;
+	top :0%;
 	background-position: center;
 }
 
@@ -31,10 +33,12 @@
 .content__info__title {
 	font-weight: bold;
 	font-size: 32px;
+	color:#fff;
 }
 
 .content__info small {
 	padding: 0 4px;
+	color:#fff;
 }
 
 .content__info small:first-of-type {
@@ -51,6 +55,7 @@
 }
 
 .content__info__overview {
+	color: whitesmoke;
 	width: 60%;
 	justify-content: safe;
 }
@@ -76,6 +81,7 @@
 
 .main_content {
 	padding: 2% 4%;
+	background-color: #000;
 }
 
 .main_content__menu {
@@ -86,11 +92,13 @@
 	padding: 0px 32px;
 	opacity: 0.5;
 	font-weight: bold;
+	color: #FFF;
 }
 
 .main_content__menu p:hover {
 	cursor: pointer;
 	opacity: 1;
+	
 }
 
 .main_content__menu p.active {
@@ -117,4 +125,10 @@
 
 .movie_info__videos iframe {
 	margin-bottom: 16px;
+}
+
+.content{
+	top: 0;
+	margin-top: 0;
+	height: fit-content;
 }

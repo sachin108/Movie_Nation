@@ -2,13 +2,15 @@
 	display: flex;
 	align-items: center;
 	padding: 1% 0;
+	color:#FFF;
 }
 
 .episode:hover div,
 .episode:hover p,
 .episode:hover {
-	background-color: #333;
+	background-color:rgb(63, 60, 60);
 	cursor: pointer;
+	color:#000;
 }
 
 .episode > div:first-child {

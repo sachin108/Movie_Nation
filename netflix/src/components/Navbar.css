@@ -7,10 +7,17 @@
 	align-items: center;
 	padding: 16px 32px;
 	z-index: 1;
+	transition-timing-function: ease-in;
+    transition: all 0.3s ease;
+	height: 40px;
+	background-color: black;
 }
-
+.nav_black{
+	background-color: black;
+}
 .navbar__poster img {
-	width: 120px;
+	width: 190px;
+	height: 74px;
 	object-fit: contain;
 }
 
@@ -24,27 +31,30 @@
 	cursor: pointer;
 }
 
-.navbar__profile img.profile__icon {
+.navbar_profile img.profile__icon {
 	width: 40px;
 }
-
-.navbar__poster img.profile__search {
-	width: 24px;
-	background-color: aqua;
-}
-.nav_avatar{
+.profile__icon {
 	cursor: pointer;
-	background-color:red;
-	border-radius: 5px;
-	float: right;
-	top: 0;
-	width: 100px;
-	right: 0;
+	padding: 10px 20px;
+	border-radius: 7px;
+	background: red;
+	color: white;
 }
 
+.navbar_poster img.profile_search {
+	width: 24px;
+}
 .logo{
+    position: fixed;
+	color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 3500;
+    font-size: larger;
+    background-image: linear-gradient(to right,red , rgb(0, 0, 0));
+    border-radius: 10px;
 	top: 0;
 	left: 0;
-	width: 170px;
-	margin: 14px;
+	margin-left:15px ;
+	margin-top: 14px;
 }

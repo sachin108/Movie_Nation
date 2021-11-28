@@ -8,7 +8,7 @@ function Series({ data }) {
 		"https://keep-calm.net/images/keep-calm-and-netflix-and-chill-600-800.jpg";
 	return (
 		<div className="tv" id={data.id}>
-			<a href={"/tv/" + data.id}>
+			<a href={"/tv/" + data.id} >
 				<img
 					src={
 						data.poster_path == null

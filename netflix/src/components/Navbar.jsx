@@ -27,19 +27,21 @@ function Navbar() {
     }, []);
 
 	return (
-		<nav className="navbar">
+		<nav className={`navbar $ {show && "nav_black"}`}>
 			<div className="navbar__poster">
-				<Link to="/">
-                <button className='logo'>
-                    MovieNation
-                </button>                
-				</Link>
+			<Link to="/">
+				<button className='logo'>MovieNation
+				</button>   
+			</Link>
 			</div>
 			<div className="navbar__profile">
-				<Link to="/search">
+				<a href="/search">
 					<img className="profile__search" src={searchSvg} />
-				</Link>
-				<button className="nav_avatar" onClick = {signOut}>Sign Out</button> 
+				</a>
+				<p
+					className="profile__icon"
+					onClick = {signOut}
+				>Sign Out</p>
 			</div>
 		</nav>
 	);

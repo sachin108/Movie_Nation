@@ -21,7 +21,7 @@ function Row({ title, fetchUrl, localUrl, type }) {
 		}
 
 		getPopularMovies();
-	}, [fetchUrl]);
+	}, []);
 
 	return (
 		<div className="row">

@@ -1,3 +1,4 @@
+
 .search__container {
 	margin-top: 100px;
 	padding: 0px 32px;
@@ -16,5 +17,5 @@
 }
 
 .search__container__input:valid {
-	color: white;
+	color:black;
 }

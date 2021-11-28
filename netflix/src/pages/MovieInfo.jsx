@@ -27,16 +27,20 @@ function MovieInfo() {
 	const [current, setCurrent] = useState(1);
 	const [mainContentData, setMainContentData] = useState(null);
 
+	async function getInfo() {
+		const response = await localAPI.get("/movie/" + movieId);
+		setInfo(response.data);
+		setLoaded(true);
+
+		return response;
+	}
 	useEffect(() => {
-		async function getInfo() {
-			const response = await localAPI.get("/movie/" + movieId);
-			setInfo(response.data);
-			setLoaded(true);
-
-			return response;
-		}
-
+	
 		getInfo();
+
+	}, [movieId])
+
+	useEffect(() => {
 
 		if (loaded) {
 			if (current == 0) {
