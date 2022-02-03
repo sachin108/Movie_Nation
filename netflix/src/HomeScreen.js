@@ -12,42 +12,42 @@ function HomeScreen() {
 
             <Banner />
 
-            <Row className="xyz"
+            <Row 
                 title='NETFLIX ORIGINALS'
                 fetchUrl = {urls.fetchNetflixOriginals}
                 isLargeRow
             />
-            <Row className="xyz"
+            <Row 
                 title='Trending Now'
                 fetchUrl = {urls.fetchTrending}
                 isLargeRow
             />
-            <Row className="xyz"
+            <Row 
                 title='Top Rated'
                 fetchUrl = {urls.fetchTopRated}
                 isLargeRow
             />
-            <Row className="xyz"
+            <Row 
                 title='Action Movies'
                 fetchUrl = {urls.fetchActionMovies}
                 isLargeRow
             />
-            <Row className="xyz"
+            <Row 
                 title='Comedy Movies'
                 fetchUrl = {urls.fetchComedyMovies}
                 isLargeRow
             />
-            <Row className="xyz"
+            <Row 
                 title='Horror Movies'
                 fetchUrl = {urls.fetchHorrorMovies}
                 isLargeRow
             />
-            <Row className="xyz"
+            <Row 
                 title='Romance Movies'
                 fetchUrl = {urls.fetchRomanceMovies}
                 isLargeRow
             />
-            <Row    className="xyz"
+            <Row    
                 title='Documentaries'
                 fetchUrl = {urls.fetchDocumentaries}
                 isLargeRow

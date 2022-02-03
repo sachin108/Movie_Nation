@@ -7,9 +7,11 @@
 .search__container__input {
 	font-size: 64px;
 	font-weight: bold;
-	color: rgba(255, 255, 255, 0.4);
+	color: rgb(255, 255, 255);
 	text-align: left;
 	border: none;
+	border-radius: 10px;
+	background-color:rgb(223, 213, 213) ;
 }
 
 .search__container__input:focus {

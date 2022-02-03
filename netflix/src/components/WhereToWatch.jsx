@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import requests from "../utils/requests";
 import functions from "../utils/functions";
-
 import Provider from "./Provider";
-import values from "../utils/values";
 
 function WhereToWatch({ id, location, type }) {
 	const { urls, api } = requests;

@@ -1,6 +1,4 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Row from "./components/Row";
 import requests from "./utils/requests";
 import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -13,8 +11,7 @@ import HomeScreen from "./HomeScreen";
 
 
 function App() {
-	const { 
-    api, urls } = requests;
+	const { api, urls } = requests;
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -32,7 +29,6 @@ function App() {
         dispatch(logout());
       }
     });
-
     return unsubscribe;
   }, [dispatch]);
   
