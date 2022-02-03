@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6819b92c.chunk.css",
+    "main.js": "./static/js/main.3b9aa445.chunk.js",
+    "main.js.map": "./static/js/main.3b9aa445.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0e7f80ec.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0e7f80ec.js.map",
+    "static/js/2.ab1f3eff.chunk.js": "./static/js/2.ab1f3eff.chunk.js",
+    "static/js/2.ab1f3eff.chunk.js.map": "./static/js/2.ab1f3eff.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.6819b92c.chunk.css.map": "./static/css/main.6819b92c.chunk.css.map",
+    "static/js/2.ab1f3eff.chunk.js.LICENSE.txt": "./static/js/2.ab1f3eff.chunk.js.LICENSE.txt",
+    "static/media/imdb-logo.179aa3d2.svg": "./static/media/imdb-logo.179aa3d2.svg",
+    "static/media/logo.95d5622d.svg": "./static/media/logo.95d5622d.svg",
+    "static/media/play.b31da51e.svg": "./static/media/play.b31da51e.svg",
+    "static/media/rt-logo.59d2ff0a.svg": "./static/media/rt-logo.59d2ff0a.svg",
+    "static/media/search.3ca36be4.svg": "./static/media/search.3ca36be4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e7f80ec.js",
+    "static/js/2.ab1f3eff.chunk.js",
+    "static/css/main.6819b92c.chunk.css",
+    "static/js/main.3b9aa445.chunk.js"
+  ]
+}
