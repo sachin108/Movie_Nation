@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://sachin108.github.io/Movie_Nation",
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
 "deploy": "gh-pages  -d build -e netflix",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
